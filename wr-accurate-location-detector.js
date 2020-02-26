@@ -42,8 +42,7 @@ class WrAccurateLocationDetector extends mixinBehaviors([],PolymerElement) {
     this.getUserAccurateLocation();
   }
        
-  async getUserAccurateLocation(e){
-
+  async getUserAccurateLocation(){
 
     const self = this;
     self.inProcess =true;
